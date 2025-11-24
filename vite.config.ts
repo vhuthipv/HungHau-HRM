@@ -25,6 +25,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  base: '/HungHau-HRM/',
   plugins: [react()],
-  base: '/HungHau-HRM/', // TÊN REPO phải chính xác
+  // ... phần khác nếu có
 })
